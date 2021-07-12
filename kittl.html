@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kittl</title>
+    <link rel="stylesheet" href="kittl.css">
+    <link rel="icon" href="image/logo.png">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+</head>
+
+<body>
+    <header class="header" id="main">
+        <div class="header_logo">
+            <a href="#main" title="logo"><img src="image/Kittl2.png" alt="logo kittl" title="logo kitchen kittl"></a>
+        </div>
+        <div class="header_burger">
+            <div class="burger_line"></div>
+            <div class="burger_line"></div>
+            <div class="burger_line"></div>
+        </div>
+        <nav class="header_menu">
+            <ul class="header_list">
+                <li>
+                    <a href="kittl.html" class="header_list" title="главная страница">Главная</a>
+                </li>
+                <li>
+                    <a href="kittl2.html" class="header_list" title="о нас">О нас</a>
+                </li>
+                <li>
+                    <a href="kittl3.html" class="header_list" title="галерея">Галерея</a>
+                </li>
+                <li>
+                    <a href="kittl4.html" class="header_list" title="контакты">Контакты</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-area">
+        <section class="slider">
+            <div class="item">
+                <img src="image/img-5.jpg" alt="kitchen kittl1" title="кухни kittl">
+            </div>
+
+            <div class="item">
+                <img src="image/img-6.JPEG" alt="kitchen kittl2" title="кухни kittl">
+            </div>
+
+            <div class="item">
+                <img src="image/img-2.JPEG" alt="kitchen kittl3" title="кухни kittl">
+            </div>
+
+            <div class="item">
+                <img src="image/img-7.JPEG" alt="kitchen kittl4" title="кухни kittl">
+            </div>
+
+            <div class="slider-dots">
+                <span class="slider-dots_item" onclick="currentSlide(1)"></span>
+                <span class="slider-dots_item" onclick="currentSlide(2)"></span>
+                <span class="slider-dots_item" onclick="currentSlide(3)"></span>
+                <span class="slider-dots_item" onclick="currentSlide(4)"></span>
+            </div>
+        </section>
+
+        <section class="tagline">
+            <div class="tagline-content">
+                <h2 class="tagline-title">KITTL KITCHENS</h2>
+                <div class="tagtine-text">
+                    Cтильные и современные кухни<br>
+                    Собственное производство и фунритура
+                </div>
+            </div>
+        </section>
+
+        <section class="terms">
+            <div class="terms_principle">
+                <h3>Принцип нашей работы</h3>
+                <div class="terms_principle_content">
+                    <div class="principle_content">
+                         <p>Заявка или звонок на сайте</p>
+                        <i class="fas fa-headset fa-4x"></i>
+                    </div>
+
+                     <div class="principle_content">
+                         <p>Бесплатный выезд дизайнера</p>
+                         <i class="fas fa-car fa-4x"></i>
+                     </div>
+
+                    <div class="principle_content">
+                        <p>Разработка макета</p>
+                        <i class="fas fa-pencil-alt fa-4x"></i>
+                    </div>
+                    <div class="principle_content">
+                        <p>Бесплатная доставка и сборка</p>
+                        <i class="fas fa-tools fa-4x"></i>
+                    </div>
+                    <div class="principle_content">
+                        <p>Контроль качества и сдача кухни</p>
+                        <i class="far fa-check-circle fa-4x"></i>
+                    </div>
+                    <div class="principle_content">
+                        <p>Ваш положительный отзыв</p>
+                        <i class="far fa-smile-wink fa-4x"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="terms_video">
+                <video src="video/video.mp4" controls></video>
+            </div>
+        </section>
+
+        <section class="inform">
+            <div class="inform_partners">
+                <div class="partners_firm">
+                    <div class="partners_img">
+                        <img src="image/bloomlogo_b1.png" title="blum" alt="blum kitchen">
+                    </div>
+                    <div class="partners_text">
+                        <p>
+                            Международная компания, которая производит системы шарниров,
+                            подъемников и направляющих, а также соответствующие монтажные инструменты
+                            для производства мебели и мебели.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="partners_firm">
+                    <div class="partners_img">
+                        <img src="image/omoikiri1.png" title="omoiliri" alt="omoikiri kitchen">
+                    </div>
+                    <div class="partners_text">
+                        <p>
+                            Японская торговая марка, основным направлением которой
+                            является производство кухонных аксессуаров : как мойки и смесители,
+                            которые могут быть приобретены в комплекте или отдельно.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="partners_firm">
+                    <div class="partners_img">
+                        <img src="image/blanco.png" title="blanco" alt="blanco kitchen">
+                    </div>
+                    <div class="partners_text">
+                        <p>
+                            Немецкая семейная компания, расположенная в г. Обердердинген
+                            (земля Баден-Вюртемберг) и являющаяся производителем бытового
+                            оборудования для кухни. Компания была основана в 1925 году.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="inform_form">
+                <form class="form_request" name="request" method="post" action="">
+                    <div id="first_form">
+                         <h3>Оставьте заявку на бесплатную консультацию специалиста</h3>
+                         <p><input type="text" name="name" placeholder="Ваше имя"></p>
+                         <p><input type="tel" name="tel" placeholder="+375 ( ) ..."></p>
+                         <p><input class="form_send" type="button" value="Отправить" onclick="showSecondForm()"></p>
+                    </div>
+                    <div id="second_form">
+                        <h3>Спасибо за заявку! Наш менеджер свяжется с Вами в ближайшее время</h3>
+                        <p><input class="form_send" type="button" value="Назад" onclick="showFirstForm()"></p>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <section class="work">
+            <div class="work_text">
+                <h3>Наши работы</h3>
+            </div>
+            <div class="work_photo">
+                <div class="work_photo_img">
+                    <a href="kittl3.html#k1" title="переход в галерею" target="_blank"><img src="image2/img11.JPEG" alt="kitchen photo" title="фото кухни галерея"></a>
+                </div >
+                <div class="work_photo_img">
+                    <a href="kittl3.html#k2" title="переход в галерею" target="_blank"><img src="image2/img33.JPEG" alt="kitchen photo" title="фото кухни галерея"></a>
+                </div>
+                <div class="work_photo_img">
+                    <a href="kittl3.html#k3" title="переход в галерею" target="_blank"><img src="image2/img44.JPEG" alt="kitchen photo" title="фото кухни галерея"></a>
+                </div>
+                <div class="work_photo_img">
+                    <a href="kittl3.html#k4" title="переход в галерею" target="_blank"><img src="image2/img55.JPEG" alt="kitchen photo" title="фото кухни галерея"></a>
+                </div>
+                <div class="work_photo_img">
+                    <a href="kittl3.html#k5" title="переход в галерею" target="_blank"><img src="image2/img66.JPEG" alt="kitchen photo" title="фото кухни галерея"></a>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer class="footer">
+        <div class="line"></div>
+        <div class="line_second"></div>
+        <div class="footer_connection">
+            <h3>Свяжитесь с нами</h3>
+            <div class="footer_connection_icons">
+                <a href="https://www.instagram.com/kittl_kitchens/" title="Переход в инстаграмм" target="_blank"><i class="fab fa-instagram fa-3x"></i></a>
+                <a href="https://www.youtube.com/channel/UCx8YLkkgDjeHSkaV-0A2axQ" title="Переход на ютуб" target="_blank"><i class="fab fa-youtube-square fa-3x"></i></a>
+                <a href="tel:+375333875560" title="Телефон для связи"><i class="fas fa-mobile-alt fa-3x"></i></a>
+                <a href="mailto:info@kittl.by" title="Почта"><i class="far fa-envelope fa-3x"></i></a>
+            </div>
+        </div>
+        <div class="footer_time">
+            <h3>Время работы</h3>
+            <p>Пн-Пт: 9.00&mdash;18.00</p>
+            <p>Сб: 9.00&mdash;14.00</p>
+            <p>Вс: выходной</p>
+        </div>
+        <div class="footer_newsletter">
+            <h3>Подпишись на нашу рассылку</h3>
+            <p>Будь в курсе последних новостей</p>
+            <input type="email"name="emaill" placeholder="email">
+            <button class="footer_newsletter_button">Подписаться</button>
+        </div>
+    </footer>
+    <script src="kittl.js"></script>
+    <script src="burger.js"></script>
+</body>
+
+</html>
